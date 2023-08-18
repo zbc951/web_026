@@ -1,0 +1,78 @@
+aside {
+    width: auto;
+    height: auto;
+
+
+    .download {
+        width: 108px;
+        height: 262px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 265px;
+        left: 7px;
+        z-index: 99;
+        cursor: pointer;
+
+        i {
+            width: 41px;
+            height: 37px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            color: $main_1;
+            writing-mode: vertical-lr;
+            letter-spacing: 2px;
+            margin: 10px 0 0 0;
+        }
+
+        &:hover,
+        &:active,
+        &.active {
+            background-position-x: 100%;
+        }
+
+    }
+
+    .servie {
+        width: auto;
+        height: auto;
+
+        .line {
+            width: 94px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 359px;
+            right: 94px;
+
+            p {
+                font-size: 16px;
+                font-weight: bold;
+                color: $main_2;
+            }
+        }
+
+        .call {
+            width: 68px;
+            height: 53px;
+            position: fixed;
+            top: 374px;
+            right: 12px;
+        }
+
+        .bee {
+            width: 90px;
+            height: 71px;
+            position: fixed;
+            top: 423px;
+            right: 50px;
+        }
+    }
+}
